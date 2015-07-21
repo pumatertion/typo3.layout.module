@@ -1,0 +1,21 @@
+{
+	"name": "typo3/layout",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 Layout Extension",
+	"version": "0.0.0",
+	"require": {
+		"typo3/cms-core": "*"
+	},
+	"extra": {
+		"typo3/cms": {
+			"Package": {
+				"partOfFactoryDefault": true
+			}
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"TYPO3\\Layout\\": "Classes/"
+		}
+	}
+}
